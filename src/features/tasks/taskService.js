@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = '/api/tasks/';
+const API_URL = 'https://taskmernbackend-aboby3n7.b4a.run/api/tasks/';
 
 // -------------------------
 //🔹 Make API request when the dashboard load to fill the current user task array
