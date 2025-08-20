@@ -11,17 +11,15 @@ import TaskList from './components/TaskList';
 function App() {
   return (
     <>
-      <Router>
-        <div className="container">
-          <Header />
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/alltasks" element={<TaskList />} />
-          </Routes>
-        </div>
-      </Router>
+      <div className="container">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/alltasks" element={<TaskList />} />
+        </Routes>
+      </div>
       <ToastContainer />
     </>
   );
