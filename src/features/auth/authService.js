@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://taskmernbackend-aboby3n7.b4a.run/api/users';
+const API_URL = 'https://taskmernbackend-aboby3n7.b4a.run/api/users/';
 
 //Sending API call to register a new user
 const register = async (userData) => {
